@@ -11,8 +11,8 @@ public class BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    public void validatePage(String message, String url){
+    public void validatePage(String message, String expectedUrl){
         String currentUrl = driver.getCurrentUrl();
-        Assert.assertEquals(message, url, currentUrl);
+        Assert.assertEquals(message, expectedUrl, currentUrl);
     }
 }

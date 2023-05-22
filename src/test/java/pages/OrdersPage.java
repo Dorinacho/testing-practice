@@ -7,8 +7,6 @@ public class OrdersPage extends BasePage{
         super(driver);
     }
 
-
-
     @Override
     public void validatePage(String message, String url) {
         super.validatePage(message, url);
