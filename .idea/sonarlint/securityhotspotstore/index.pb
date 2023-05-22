@@ -11,8 +11,6 @@ V
 &src/test/java/webDriver/ShareData.java,4\2\424080e480030e598de936caccc21dca635b301d
 Z
 *src/test/java/pages/OrderReceivedPage.java,5\f\5f6e2a6e9a1b7f27beae46a6ebef0dc70d38dd36
-V
-&src/test/java/pages/MyAccountPage.java,4\c\4cc1a60fdb72fd4f44d6dbf930e553e1af379c88
 U
 %src/test/java/pages/CheckoutPage.java,9\7\97abd181db9c26dd10397a52fd46b05157111b91
 Q

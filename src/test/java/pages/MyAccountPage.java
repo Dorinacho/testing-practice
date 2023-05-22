@@ -1,5 +1,6 @@
 package pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,6 +29,9 @@ public class MyAccountPage extends BasePage {
     private WebElement accountDetails;
     @FindBy(xpath = "//a[text()='Orders']")
     private WebElement orders;
+
+    @FindBy(xpath = "//p//a[text()='Log out']")
+    private WebElement logoutButton;
 
     public MyAccountPage(WebDriver driver) {
         super(driver);
@@ -58,6 +62,10 @@ public class MyAccountPage extends BasePage {
 
     public void goToOrders() {
         orders.click();
+    }
+
+    public void validateAccount(){
+        Assert.assertEquals("Account validated","Log out", logout.getText());
     }
 
     @Override

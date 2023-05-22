@@ -15,8 +15,6 @@ U
 %src/test/java/pages/CheckoutPage.java,9\7\97abd181db9c26dd10397a52fd46b05157111b91
 Q
 !src/test/java/pages/CartPage.java,9\c\9ce7e1e9f82d450fc521dc73c47f682161dd5e91
-V
-&src/test/java/pages/MyAccountPage.java,4\c\4cc1a60fdb72fd4f44d6dbf930e553e1af379c88
 Q
 !src/test/java/pages/HomePage.java,4\2\42b8300070bf5b4b5a0097b050c9368a280f7ab1
 U
